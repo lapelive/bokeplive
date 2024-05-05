@@ -30,6 +30,7 @@ const VideoCard = ({ video }: any) => {
                     title={`Watch ${video.title}`}
                 >
                     {video.title}
+                </Link></h3>
             </CardContent>
         </Card>
     );
